@@ -1,0 +1,12 @@
+; Minimal "Hello, world!" program
+; x86-64 machine code for macOS
+
+b8 04 00 00 02
+bf 01 00 00 00
+48 8d 35 11 00 00 00
+ba 0e 00 00 00
+0f 05
+b8 01 00 00 02
+48 31 ff
+0f 05
+48 65 6c 6c 6f 2c 20 77 6f 72 6c 64 21 0a
